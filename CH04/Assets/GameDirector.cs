@@ -23,11 +23,11 @@ public class GameDirector : MonoBehaviour
         float length = this.flag.transform.position.x - this.car.transform.position.x;
         if(length >= 0)
         {
-            this.distance.GetComponent<TextMeshProUGUI>().text = "Distance : " + length.ToString("F2") + "m";
+            this.distance.GetComponent<TextMeshProUGUI>().text = "거리 : " + length.ToString("F2") + "m";
         }
         else
         {
-            this.distance.GetComponent<TextMeshProUGUI>().text = "Gameover";
+            this.distance.GetComponent<TextMeshProUGUI>().text = "게임 오버 ";
         }
         
     }
