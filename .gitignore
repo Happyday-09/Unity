@@ -73,3 +73,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 CH03/Roulette_iOS/Libraries/libiPhone-lib.a
+CH04/Library/PackageCache/com.unity.burst@1.8.15/.Runtime/libburst-llvm-16.dylib
