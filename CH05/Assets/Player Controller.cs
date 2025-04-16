@@ -10,6 +10,16 @@ public class PlayerController : MonoBehaviour
         Application.targetFrameRate = 60;
     }
 
+    public void LButton()
+    {
+        transform.Translate(-3, 0, 0);
+    }
+
+    public void RButton()
+    {
+        transform.Translate(3, 0, 0);
+    }
+
     // Update is called once per frame
     void Update()
     {
